@@ -1,0 +1,21 @@
+{
+  "name": "awesome-color-theme",
+  "displayName": "awesome-color-theme",
+  "description": "an awesome color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "awesome color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/awesome-color-theme.json"
+      }
+    ]
+  }
+}
